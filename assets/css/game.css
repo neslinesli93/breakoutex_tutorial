@@ -1,0 +1,27 @@
+.game-container {
+  position: relative;
+  margin-top: 4rem;
+  /* Subtract half of the board width*/
+  left: calc(50% - 260px);
+}
+
+.game-container .block {
+  display: block;
+  position: absolute;
+}
+
+.game-container .block.wall,
+.game-container .block.floor {
+  background: #717d7e;
+}
+
+.game-container .block.brick {
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+
+.game-container .block.paddle {
+  background: #717d7e;
+  border-radius: 20px;
+}

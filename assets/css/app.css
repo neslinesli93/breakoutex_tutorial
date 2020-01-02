@@ -1,0 +1,14 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+@import "./live_view.css";
+@import "./game.css";
+
+html {
+  background: #292a2d;
+  color: #a9a9b3;
+}
+
+body {
+  margin: 0;
+}
