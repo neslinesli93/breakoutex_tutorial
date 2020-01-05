@@ -1,7 +1,0 @@
-.phx-disconnected {
-  opacity: 0.5;
-  cursor: wait;
-}
-.phx-disconnected * {
-  pointer-events: none;
-}
